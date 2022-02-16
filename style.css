@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body{
+    margin: 0;
+}
+.header{
+    background: #222222;
+    height: 74px;
+    padding: 18px 16px;
+    box-sizing: border-box;
+
+}
+@media (min-width: 768px) {
+    .header{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 1600px) {
+    .container{
+       margin: 0 auto;
+        width: 1140px;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+.user-icon,
+.cart-icon{
+    display: none;
+}
+.search-icon{
+    margin-left: 41px;
+}
+@media (min-device-width: 768px) {
+    .user-icon,
+    .cart-icon{
+        display: inline;
+    }
+}
+.user-icon{
+    margin-left: 25px;
+    margin-right: 42px;
+}
+.cart-icon-wrap{
+    position: relative;
+}
+.cart-icon-wrap span{
+    display: inline-block;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: #F16D7F;
+    border-radius: 50%;
+    text-align: center;
+    right: -8px;
+    top: -19px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
